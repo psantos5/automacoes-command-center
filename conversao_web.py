@@ -438,7 +438,7 @@ try:
     else:
         logging.error("Endereço não retornou corretamente ou botão de continuar esta indisponivel")
 
-    logging.info("CENARIO: Forma de Pagamento (PIX)")
+    logging.info("CENARIO: Forma de Pagamento (PIX) {SEM EFETIVAR}")
     element_pagamento_pix = wait_and_log_visible_and_clickable_element(driver, By.XPATH, '//*[@id="tab-button-PIX"]/span')
     element_pagamento_pix.click()
 
